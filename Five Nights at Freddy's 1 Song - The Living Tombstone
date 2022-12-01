@@ -1,0 +1,68 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 40 -- tempo overides the delay
+
+shared.scr = [[ [k?]-L-kH-H-
+H-GH-jH--j-
+G-kH--f-
+S-GD-[%(]-[*W] 
+f[*W]D [*WS] [0ra] f[0r]O [0ra]S[60a] 
+p[60]O [60I] [*WO] T[*W]u [*W] [60I] 
+p[60]O [60I] [*WO] T[*W]u [*Wu] [60I] 
+p[60]O [60I] [%(u] Y[%(]T [%(Y] [*W] 
+f[*W]D [*WS] [0ra] f[0r]O [0ra]S[60a] 
+p[60]O [60I] [*WO] T[*W]u [*W] [60I] 
+p[60]O [60I] [*WO] T[*W]u [*Wu] [60I] 
+p[60]O [60I] [%(O] a s-[*W] 
+H[*W]HGf[0rG]f [0rH] [0rH]Gf[60G]f 
+[60H] [60H]GfG[%(H]jH[%(f]-[%(] [60] 
+f[60]fS[60a]a[0r] f[0r]fS[0ra]a[60] 
+f[60]fS[60f]G[%(D] S fD [*W] [*W]
+H [*WH]Gf[0rG] f[0rH] [0rH]Gf[60G] f
+[60H] [60H]GfG[%(H]jH[%(f]-[%(] [60] 
+f[60]fS[60a]a[0r] f[0r]fS[0ra]a[60] 
+f[60]fS[60f]G[%(D] H j H [*WG]-
+[*Wf]-[0r]-[0r]-S[60f] 
+fS[60f]G H[%(] H [%(j] H [*WG]-
+f[*W] S [0r]-[0r]-S[60f] 
+fS[60f]G D[%(] H [%(j] H [*WG]-
+[*Wf]-[0r]-[0r]-S[60f] 
+fS[60f]G H[%(] H [%(j] H [*WG]-
+f[*W] S [0r]-[0r]-S[60f] 
+fS[60f]G [%(D]----[*W]-
+[*W]-[0r]-[0r]-[60]-
+[60]-[%(]-[%(]-[*WS]-
+[*WS]-[0rf]-[0rH]-[60p]-
+[60p]-[%(O]--[*W] 
+f[*W]D [*WS] [0ra] f[0r]O [0ra]S[60a] 
+p[60]O [60I] [*WO] T[*W]u [*W] [60I] 
+p[60]O [60I] [*WO] T[*W]u [*Wu] [60I] 
+p[60]O [60I] [%(u] Y[%(]T [%(Y] [*W] 
+f[*W]D [*WS] [0ra] f[0r]O [0ra]S[60a] 
+p[60]O [60I] [*WO] T[*W]u [*W] [60I] 
+p[60]O [60I] [*WO] T[*W]u [*Wu] [60I] 
+p[60]O [60I] [%(O] a s-[*W] 
+H[*W]HGf[0rG]f [0rH] [0rH]Gf[60G]f 
+[60H] [60H]GfG[%(H]jH[%(f]-[%(] [60] 
+f[60]fS[60a]a[0r] f[0r]fS[0ra]a[60] 
+f[60]fS[60f]G[%(D] S fD [*W] [*W]
+H [*WH]Gf[0rG] f[0rH] [0rH]Gf[60G] f
+[60H] [60H]GfG[%(H]jH[%(f]-[%(] [60] 
+f[60]fS[60a]a[0r] f[0r]fS[0ra]a[60] 
+f[60]fS[60f]G[%(D] H j H [*WG]-
+[*Wf]-[0r]-[0r]-S[60f] 
+fS[60f]G H[%(] H [%(j] H [*WG]-
+f[*W] S [0r]-[0r]-S[60f] 
+fS[60f]G D[%(] H [%(j] H [*WG]-
+[*Wf]-[0r]-[0r]-S[60f] 
+fS[60f]G H[%(] H [%(j] H [*WG]-
+f[*W] S [0r]-[0r]-S[60f] 
+fS[60f]G [%(D]----[*W]-
+[*W]-[0r]-[0r]-[60]-
+[60]-[%(]-[%(]-[*WS]-
+[*WS]-[0rf]-[0rH]-[60j]-
+[60j]-[%(H]--[*W] ]]
