@@ -1,0 +1,117 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
+
+shared.scr = [[ [6b][6x][6l]j[%f][%s][%p]u[6O]p-6 [6u] 
+p [6a] 6 [6a]s-[6a] [6p] [6O] 
+sd[6s] [6a] [6s] [4f]g-[4f]d[4s]-
+[4a] [4p] 4 [%O]-% % 
+u % [%a] % [6p]-6 [6u] 
+p [6a] 37[6s]-[6s]d[6g] 6 
+f 6 [6d] [6f] [4s]-4 4 
+a 4 [4s] 4 [%O]-% % 
+s [%a] [%O] [%a] [6p]-[680] [6u] 
+p [6a] [68] [6s]-[6a] [680p] [6O] 
+d [6s] [680a] [6s]5[4g]-[468f]d[4s]-
+[4a] [46p] 4 [%O]-[%70] % 
+u % [%a]%% [6p]-6 [6u] 
+p [6a] 6 [6s]-[6s]d[6g] 6 
+f 6 [6d] [6f] [4s]-4 4 
+a 4 [4s] 4 [%O]-% % 
+s [%a] [%O] [%a] [6p]-[68s] [6p]-
+[6s] [68p] [68s] p 6 [68s] p 
+[6a] o [68p] i [5u]-i[79] [5u] 
+o 5 [79p] [79i] p 5 [79]-
+[5a]-[79]-[4s] a [68o] [4a]4
+[4g] [4f] [68d] [4s] [4a]-[468] [46s]-
+4 [4h] 4 [5d]-[57] 5-
+5 [57f] [2d]5[5s] 5a5 [5s] 
+[%d]s[%a]s[%d]s[%a]s[6p]-[68s] [6p]-
+[6s] [68p] [68s] p 6 [68s] p 
+[6a] o [68p] i [5u]-i[79] [5u] 
+o 5 [79p] [79i] p 5 [79]-
+[5a]-9737[4s] a [68o] [4a]4
+[4g] [4f] [68d] [4s] [4a]-[468] [46s]-
+4 [4h] 4 [5d]-[57] 5-
+5 [57f] [2d]5[5s] 5a5 [5s] 
+[%d][@s][%a]s[%d]s[%a]s[6s]apu[68s]a[6p]u
+[6d]sao[68d]s[6a][7o][%h]-g[79] [%f] 
+[%f] d [79s] %6[$a]-[68] [$o]k
+[$sl] [hv] [68fx] $5[7dz] [sl] [79ak] [7ak] 
+[7s]ao [79u] 71[6s]apu[80s]a[6p]u
+[6d]sao[68d]s[6a][7o][%h]-g[79] [%f] 
+[%f] d [79s] %6[$a]-[68] [$o]a
+[$s] h [68f] $5[1d] s [79a] [1a] 
+[1s]ao [80u] 12[6j]-[80] 6 
+k 666-[6z]-[80l] 6 
+k 66[6h]-[5f]-[79] 5-
+555-[5h] j [79h] [5f] 
+h 555-[4l]-[68z] 4 
+l 44[4k]-[4h]-[68] 4 
+d 444-[3f]-[57d] 3 
+f 33[3d]-[3s]-[57] 3 
+[3d]-[57] 3$[6j]-[80] 6 
+k 666-[6z]-[80l] 6 
+k 66[6h]-[5f]-[79] 5-
+555-[5h] j [79h] [5f] 
+h 555-[4l]-[68z] 4 
+l 44[4k]-[4h]-[68] 4 
+d 444-[3sf]-[57ad] 3 
+[fh] 33[3dk]akaj p H O 
+GgfDdSsaPpOoIi[uf]-[6pj] [6sl]h[80pj] [6pj]6
+[%OH] [%ak]f[79OH] [%OH]%[5oh] [5pl]f[57oh] [$oh] 
+[IG] [$a][sl][79I][ak][$s]5[6pj] [6sl]h[80pj] [6pj]6
+[%Oh] [%ak]f[O79h] [%Oh]%[5oh] [5pl]f[57oh] [$oh] 
+[$I] [$a]s[79I]a[$s]5[6fj] [6l]h[80j] [6fj]6
+[d%H] [%k]f[79H] [d%H]%[5fh] [5j]f[57h] [$fh] 
+[dG] [$dk][fl][79dG][fk][$dl]5[6fj] [6l]h[80j] [6fj]6
+[d%H] [%k]f[79H] [d%H]%[5fh] [5l]f[57h] [$fh] 
+d [$d]f[Qd][9f][7d]5[6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[Id]a[$Id][af][I79d][af][$Id][5a][6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[od]S[$od][Sf][79od][Sf][$od][5S][6pf]S[6p][Sh][80p]S[6pf][6S]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[Id]a[$Id][af][I79d][af][$Id]a[6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5j] [5H] [57h]H[Qh]G
+[9g] [8f]7[6D]5[$f] [6p] p [6a] [6s] 
+p [6u]6[6p] u [6t]-[6r]-
+[6t]-[6w] r [4w]-[68e] 4 
+r 44[4y]-[4t] e [68t]e[4t] 
+sa[4o][4u][4y]trt[4p]-p4 [4p] 
+o 4[4o]4 o [4u] y [68t] [4r] 
+t 4[4r]4 e [%t] r [%t] [%o] 
+i [6u]6[6y]-[6t] e [6t]etu
+sa[6s][6d][6s]apa[6p] p [6a] [6s] 
+p [6u]6[6p] u [6t]-[6r]-
+[6t]-[6w] r [4w]-[68e] 4 
+r 44[4y]-[4t] e [68t]e[4t] 
+sa[4o][4u][4y]trt[4p]-p4 [4p] 
+o 4[4o]4 o [4u] y [68t] [4r] 
+t 4[4r]4 e [4t] a [4s] [4h] 
+g [4f]4[4d]-[5s] p [5s]p[5s]f
+[%l]klz[%j] [%h] [6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[Id]a[$Id][af][I79d][af][$Id]a[6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[od]S[$od][Sf][79od][Sf][$od]S[6pf]S[6p][Sh][80p]S[6pf][6S]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[Id]a[$Id][af][I7d][$af][I5d]a[6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[$Id]a[$Id][af][I79d][af][$Id]a[6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[Id]a[$Id][af][I7d][$af][I5d]a[6pf]s[6p][sh][80p]s[6pf][6s]
+[%Od]a[%O][af][79O]a[%Od][%a][5of]s[5o][sf][57o]s[Qof][7s]
+[QId][7a][$Id][af][I79d][af][$Id]a[6pf]s[6p][sh][80p]s[6pf][6s]
+[WOd][(a][%O][af][7(O]a[%Od][%a][5of]s[5o][sf][57o]s[$of]s
+[$d] [$d]f[79d]f[$d] [6f] 6h6 [68f] 
+[5d] 5f5 [57d] [$f] $f$ [$6f] 
+[QId]a[$Id][af][I79d][af][$Id]a6 6 [80] 66
+6 6 [80] 6 6 6 [80] 66
+pute086 ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
