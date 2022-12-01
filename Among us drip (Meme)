@@ -1,0 +1,39 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 47 -- tempo overides the delay
+
+shared.scr = [[ [18]-s D g G g D 
+s--Pds--5 
+[18]-s D g G g D 
+G--GgD[8tG]gD
+[18]-s D g [18G] g D 
+[18s]--Pds [18]-^5 
+[18]-s D g [@(G] g D 
+[$QG]-[$Q]-[$Q]G[$Q]g[$Q]D[@(G]g[18]D
+[18]-s D g G g D 
+s--Pds--5 
+[18]-s D g G [8tg] D 
+G----
+[18]-s D g [18G] g D 
+[18s]--Pds [18]-^5 
+[18]-s D g [@(G] g D 
+[$QG]-[$Q]-[$Q]G[$Q]g[$Q]D[@(G]g[18]D
+t-t Y i I [18i] Y 
+[18t]--Eyt [18]-^5 
+[18]-t Y i [@(I] i Y 
+[18G]-[18]-[18G]g[18]D[18G][18g][8tD]
+[18]-s D g [18G] g D 
+[18s]--Pds [18]-^5 
+[18]-s D g [@(G] g D 
+[$QG]-[$Q]-[$Q]G[$Q]g[$Q]D[@(G]g[18]D
+[18]-[ts] [YD] [ig] [IG] [ig] [YD] 
+[ts]--[EP][yd][ts]--5 
+[18]-[ts] [YD] [ig] [IG] [ig] [YD] 
+[IG]--[IG][ig][YD][IG][ig][YD]
+[ts] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
