@@ -1,0 +1,85 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ [yG] [IS] [pG] [IS] [pG] [IS]
+[yG] [IS] [pG] [IS] [pG] [IS]
+[ra] [Yp] [IS] Y [Ip] [Ya]
+[rf] [YD] [If] [YG] [ID] [Ya]
+[wG] [ra] [yG] [ra] [yG] [ra]
+[wG] [EP] [yG] [EP] [yh] E
+[yG] [Id] [pG] [Id] [pf] [IG]
+[Tf] u [pd] u [pS] u
+[yG] [IS] [pG] [IS] [pG] [IS]
+[yG] [IS] [pG] [IS] [pG] [IS]
+[ra] [Yp] [IS] Y [Ip] [Ya]
+[rf] [YD] [If] [YG] [ID] [Ya]
+[wG] [ra] [yG] [ra] [yG] [ra]
+[wG] [EP] [yG] [EP] [yh] E
+[yG] [Id] [pG] [Id] [pf] [IG]
+[TS] I [pG] I [pS] u
+[od] y o [yp] [oa] [IS]
+[ud] T [IS] e [rd] T
+[up] I T [Ia] [Tp] [wo]
+[eI] T [IG] y [of] I
+[rd] y I [yp] [Ia] [rS]
+[ed] T [uS] T [Id] P
+[aG] I u [rh] [yG] [of]
+[pd] I [uf] y [uS] I
+[od] y o [yp] [oa] [IS]
+[ud] T [IS] e [rd] T
+[up] I T [Ia] [Tp] [wo]
+[eI] T [IG] y [of] I
+[rd] y I [yp] [Ia] [rS]
+[ed] T [uS] T [Id] P
+[aG] [Id] [aG] [Id] [af] [IG]
+[pf] u [pd] u [pS] u
+[yp] [Ip] [Ip] [yj] [Ip] [Ip]
+[Tf] [up] [up] T [up] [up]
+[rd] [yI] [yI] [rj] [yI] [yI]
+[ep] [Tu] [Tu] e [Tu] [Tu]
+[wp] [ry] [ry] [wd] [ry] [ry]
+[Qj] [ey] [ey] Q [ey] [eyk]
+[0j] [wr] [wr] [0f] [wr] [wr]
+[ed] [Tu] [Tu] e [Tu] [Tu]
+[yp] [Ip] [Ip] [yj] [Ip] [Ip]
+[Tf] [up] [up] T [up] [up]
+[rd] [yI] [yI] [rj] [yI] [yI]
+[ep] [Tu] [Tu] e [Tu] [Tu]
+[wp] [ry] [ry] [wd] [ry] [ry]
+[Qj] [ey] [ey] Q [ey] [eyk]
+[0j] [wr] [wr] [0f] [wr] [wr]
+[ed] [Tu] [Tu] e [Tu] [Tu]
+[wp] [ry] [ry] [wj] [ry] [ryG]
+[wf] [ry] [ryd] [wS] [ry] [ryd]
+[Qf] [eT] [eT] [QL] [Tel] [Tek]
+[Qj] [eT] [eT] Q [eT] [eT]
+[0a] [wr] [wr] [0j] [wr] [wrG]
+[ef] [Tu] [Tud] [ef] [Tu] [uTG]
+[ES] [Tu] [Tu] [Ef] [Tu] [Tu]
+[rf] [yI] [Ipd] [eS] [Tu] [upd]
+[wp] [ry] [ry] [wj] [ry] [ryG]
+[wf] [ry] [ryd] [wS] [ry] [ryd]
+[Qf] [eT] [eT] [QL] [Tel] [Tek]
+[Qj] [eT] [eT] Q [eT] [eT]
+[0a] [wr] [wr] [0j] [wr] [wrG]
+[ef] [Tu] [Tud] [ef] [Tu] [uTG]
+[ES] [Tu] [Tu] [Ef] [Tu] [Tu]
+[rf] [yI] [Ipd] [eS] [Tu] [upd]
+[9p] y u y
+W y u y
+w y u o
+[9I] u y e
+[9p] y u y
+W y u y
+w y u o
+[9I] u y e
+[wp] y u y
+e y u I u
+[ey] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
