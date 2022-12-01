@@ -1,0 +1,134 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
+
+shared.scr = [[ O P P P 
+[%a]-[WO]-[rD]--O 
+[$S]-[Qa]-[EP]-a-
+3-[0O]-[WP]-a-
+[@P]-[(O]-[5o]-[(o]-
+[%O]-[WO]-[rD]-D D 
+[$S]-[Qa]-[EP]-P-
+[3a]-[7O]-[0a]-[Wa]-
+[@P]-[(a]-[5P]-[(a]-
+[0ruWO]-[W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD]-[r(QS] D [(Qr] [oPD] 
+[(WE]-[o(WED] S [(WED] S [(WED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD] S [(Qr] D [(Qr] [oPD] 
+[w(E]-[wo(ED] S [w(ED] S [w(ED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r]-[0rWO]-[0rWD] S 
+[(Qr] [Ia] [(Qr]-[r(QD] f [(Qr] [oPD] 
+[w(E]-[(Ewa] S [w(E] a [w(E] f 
+[rWY] D [rWY]-[WYra]-[rWYS]-
+[0rWO]-[0rWD] S [W0r] a [W0r] I 
+[(Qr]-[r(QID] S [(Qr] a [(Qr] f 
+[(wr] [oPD] [(wr]-[(wr]-[(wr]-
+[PD5wh]-[@(]-[!*]-7-
+[WOa]-Y-[Oa]--
+fHkZ----
+[QIP]-T-[IP]-J-
+J-k-J-k-
+[H0kx]-f-[Hkx]--
+uOa-[GC]-[fx]-[DZ]-
+r-D-[kZ]-[ak]-
+[oEYPJ]-[ak]-[PJ]-[ak]-
+[%Oa]-[(Y]-[WOa]-r-
+[YD]HkZ r-W-r-
+[$IP]-[*T]-[QIP]-[EPJ]-
+[TPJ]-[Eak]-[QPJ]-[Eak]-
+[3f]Hkx 7-0-W-
+r-[WGC]-[0fx]-[WDZ]-
+7-Q-r-[Yak]-
+[5PJ]-[(ak]-[wPJ]-[Eak]-
+[%WOH]--[rO]-[YD]-[YD]-[YD]-
+[rWTYS]-[ra]-[ra]-[YD]-[YD]-[YD]-
+[$QTS]-[ra]-[ra]-[YD]-[YD]-[YD]-
+[QETYD]-[YD]-[YD]-[YD]-[YD]-[YD]-
+[30S]--[ra]-[YD]-[YD]-[YD]-
+[0rWTS]-[ra]-[ra]-[YD]-[YD]-[YD]-
+[7TS]-[ra]-[ra]-[YD] [YD] [YD]-
+[@(YD] [YD] [YD]-[5wYD] [YD] [YD]-
+[%WTS]-([ra]-[rYD]-[YD]-[YD]-
+[rWTYS]-[ra]-[ra]-[YD]-[YD]-[YD]-
+[$QTS]-[ra]*[ra]-[EYD] [YD] [YD]-
+[QETYD] [YD] [YD]-[YD] [YD] [YD]-
+[30TS]-7[ra]-[WYD]-[YD]-[YD]-
+[0rWTS]--[ra]-[YD]-[YD]-[YD]-
+[7rTS]-Q[ra]-[YD] [YD] [YD]-
+[5wYD] [YD] [@(YD]-[!*YD] [YD] [7YD]-
+[0ruWO]-[W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD]-[r(QS] D [(Qr] [oPD] 
+[(WE]-[o(WED] S [(WED] S [(WED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD] S [(Qr] D [(Qr] [oPD] 
+[w(E]-[wo(ED] S [w(ED] S [w(ED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r]-[0rWO]-[0rWD] S 
+[(Qr] [Ia] [(Qr]-[r(QD] f [(Qr] [oPD] 
+[w(E]-[(Ewa] S [w(E] a [w(E] f 
+[rWY] D [rWY]-[WYra]-[rWYS]-
+[0rWO]-[0rWD] S [W0r] a [W0r] I 
+[(Qr]-[r(QID] S [(Qr] a [(Qr] f 
+[(wr] [oPD] [(wr]-[(wr]-[(wr]-
+[PD5wh]-[@(]-[!*]-7-
+%-[(Y]-[WT]-[(Y]-
+[rI]-[(Y]-[WT]-[(r]-
+$-[*T]-[QY]-T-
+o-* O Q-[rWY]--
+[(WY]-[QT]-Y-
+[WI]-[7Y]-[0T]-[7r]-
+[7Q]-[rQY]-[rY]-[QT]-
+[w^EY]-( [WEY] w-[(Y]-
+%-[(Y]-[WT]-[(Y]-
+[rI]-[(Y]-[WT]-[(r]-
+$-[(Y]-[QY]-[(T]-
+I--O Q-[rWY]-
+3-[7WY]-[0T]-Y-
+I-[3Y]-[7T]-r-
+[7Q]-[r$Y]-[7Y]-[$T]-
+[w@EY]-^ [WEY] (-[^YD]-
+[OH]--[IG]--
+[TS]--[ra]--
+[0ruWO]-[W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD]-[r(QS] D [(Qr] [oPD] 
+[(WE]-[o(WED] S [(WED] S [(WED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD] S [(Qr] D [(Qr] [oPD] 
+[w(E]-[wo(ED] S [w(ED] S [w(ED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r]-[0rWO]-[0rWD] S 
+[(Qr] [Ia] [(Qr]-[r(QD] f [(Qr] [oPD] 
+[w(E]-[(Ewa] S [w(E] a [w(E] f 
+[rWY] D [rWY]-[WYra]-[rWYS]-
+[0rWO]-[0rWD] S [W0r] a [W0r] I 
+[(Qr]-[r(QID] S [(Qr] a [(Qr] f 
+[(wr] [oPD] [(wr]-[(wr]-[(wr]-
+[(EPDwh]-[w(E]-[w(E]-[w(E]-
+[0ruWO]-[W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD]-[r(QS] D [(Qr] [oPD] 
+[(WE]-[o(WED] S [(WED] S [(WED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r] O [0rWOG] [OG] [W0r] [aH] 
+[(Qr]-[r(QD] S [(Qr] D [(Qr] [oPD] 
+[w(E]-[wo(ED] S [w(ED] S [w(ED] S 
+[rWYOD] S [rWYOD] S [QETID] S [QETID] S 
+[W0r] [Oa] [W0r]-[0rWO]-[0rWD] S 
+[(Qr] [Ia] [(Qr]-[r(QD] f [(Qr] [oPD] 
+[w(E]-[(Ewa] S [w(E] a [w(E] f 
+[rWY] D [rWY]-[WYra]-[rWYS]-
+[0rWO]-[0rWD] S [W0r] a [W0r] I 
+[(Qr]-[r(QID] S [(Qr] a [(Qr] f 
+[(wr] [oPD] [(wr]-[(wr]-[(wr]-
+[PD5wh]-[@(]-[!*]-7-
+[YH][Ok]a ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
