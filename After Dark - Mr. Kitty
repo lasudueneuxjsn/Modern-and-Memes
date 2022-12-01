@@ -1,0 +1,113 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 54 -- tempo overides the delay
+
+    shared.scr = [[ D-D z-z J-
+D-D z-z J-
+h-h z-z J-
+h-h z-z J l
+D-D z-z J-
+D-D z-z J-
+h-h z-z J-
+h-h c-c Z z
+[YD] P [dD] [Dz]-z J-
+[YD] P D z-z J-
+[oh] d h [Jdz]-z J-
+[oh] d h [Jdz]-z J l
+[YD] P [dD] [Dz]-z J-
+[YD] P D z-z J-
+[oh] d h [Jz]-z J-
+[oh]-h c-c Z z
+(----E [EP] s-d Y E
+(----E [YP] s-d Y E
+w----E [yP] s-d y E
+w----E [yP] s-d y E
+[(d]----E [EP] s-d Y E
+(----E [YP] s-d Y E
+w----E [yP] s-d y E w-P D-d--(----E [YP] s-d Y E (----E [YP] s-d Y E 5 9 [wP] [Es]-d Y-5 9 [wP] [Es]-d Y-[(d]----E [YP] s-d Y E (----E [YP] s-
+d Y E 5 9 [wP] [Es]-d Y-[wyo]-P D-d--[@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w
+[Eh] [ygc] ^ [8gc] [9gZ] z [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [odh]-
+h c-c Z z @ ( [(P]
+s E-d--[Ei] P [@o] ( [(P]
+s E E d--[Yi] o [5d] 9 [wP] [Es]-d--[yi] P [5d] 9 [wP] [Es]-d--
+[yi] P [@od] ( [(P] s E E d--
+[Yi] o [@od] ( [(P] s E E d--
+[Yi] o [5d] 9 [wP] [Es]-d--[yi] P [5d] 9 [wP] [ED]-d y-@ ( [o(P] [ps]
+E s [Pd]--[Yi]-P-[@o] ( [o(P] [ps]
+E s [Pd]--[Yi]-P-[5o] 9 [woP] [Eps] s [Pd]--[yi] P [P5d] 9 [woP] [Eps]-[Pd]--
+[yi] P [@o] ( [o(P] [ps] E [Eps] [Pd]--
+[Yi] P [@od] ( [o(P] [ps] E [Eps] [Pd]--
+[Yi] P [5wod]-[oP] [ps]-[Pd]--[P5wd]-P D d--[@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [^oh]-
+[oh] [gc] ^ [gc] [DZ] [dz] [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [woh]-
+[oh] [gc]-[gc] [DZ] [dz] [(YPJ]-
+P [DJ]-P [DJ]-[(YPJ]-
+P [DJ]-P [DJ] P [5wdJ]-
+P [dJ]-P [dJ]-[5wdj]-
+p [dj]-p [dg]-[(YPJ]-
+P [DJ]-P [DJ]-[(YPJ]-
+P [DJ] D P [DJ] P [5wdJ]-
+P [dJ]-P [dJ]-[5wdj]--
+[dj] [dg] p d g [@DJ] (
+P [(P]-[@DJ] [(P] [(P] [DJ] E [gDJ]-P [PD] [Pg]
+[5dJ] w P [wP]-[5dj] [wp] [wd] [dj] o [dg] p
+d g [@DJ] ( P [(P]-[g@DJ] ( P [g(PDJ] [gDJ] E [DJ] P [gDJ] P [5wdhJ]-
+P P----[pdj]--
+[pdg]--[@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [^oh]-
+[oh] [gc] ^ [gc] [DZ] [dz] [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w
+[Eh] [ydz] ^ [8dz] [9J] [dl] [tD] s
+[sD] [dhz] y [Ydz] [odJ] P [@D] (
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w
+[Eh] [ydz] ^ [8dz] [9J] d [5woh]-
+[oh] [gc] ^ [gc] [DZ] [dz] [5D]-
+[5D] [qz]-[qz] [9J]-[5D]-
+[5D] [qz]-[qz] [9J]-[oh]-
+[oh] [dz]-[dz] [PJ]-[oh]-
+[oh] [dz]-[dz] [PJ] [sl] [YD]-
+[YD] [dz]-[dz] [PJ]-D-
+D z-z J-h-
+h z-z J-h-
+h c-c Z z ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
