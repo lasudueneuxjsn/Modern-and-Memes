@@ -1,0 +1,17 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 42 -- tempo overides the delay
+
+    shared.scr = [[ f f g f d f p-
+d s p-s-d-
+d d f d s d f-
+s p s-s-p-
+f f g f d s f d-
+f p-p s a-
+a-f-f-s ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
