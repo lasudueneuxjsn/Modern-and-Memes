@@ -1,0 +1,44 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 160 -- tempo overides the delay
+
+    shared.scr = [[ u - i - o - d - 4 - 8 - [qs] -
+s - a - o - i - 8 - w - [ti] - i - u - t - i - 6 -
+[0u] - e - y - t - u - y - 5 - 9 - w - u - i - o -
+d - 4 - 8 - [qs] - s - a - o - i - 8 - w - [ti] -
+i - u - t - i - 6 - [0u] - e - y - t - u - y - 5 -
+9 - w -- t - t - [4q] - t - [4qu] o - o [4q] u - y
+[4qu] - y - [8t] - t - [8tu] o - o [8t] u - y [8tu] -
+[6e] - t - [6eu] o - o [6e] u - y [6eu] - y - [5w] -
+t - [5wu] o - o [5w] p - u [5wy] - u - [4q] - t -
+[4qu] o - o [4q] u - y [4qu] - y - [8t] - t - [8tu]
+o - o [8t] u - y [8tu] - [6e] - t - [6eu] o - o [6e]
+u - y [6eu] - y - [5wi] - u - t - i - u - y - [4u] -
+8 - [qu] - e - [tu] - e u q - y - [8u] - w - [tu] -
+u - [uo] - u u t - y - [6u] - 0 - [eu] - t - u - t
+u e - y - [5y] - 9 - [wr] - r - [ry] - r t w - o -
+[4u] - 8 - [qu] - e - [tu] - e u q - y - [8u] - w -
+[tu] - u - [uo] - u u t - y - [6u] - 0 - [eu] - t -
+u - t u e - y - [5y] - 9 - w - u - i - o - d - [48] -
+q - [48s] - q - [48s] - [qa] - [48o] - [qi] - [8w] -
+t - [8wi] - t - [8wi] - [tu] - [8wt] - [ti] - [60] -
+[eu] - [60] - [ey] - [60] - [et] - [60u] - [ey] -
+[59] - w - [59] - w - [59u] - [wi] - [59o] - [wd] -
+[48] - q - [48s] - q - [48s] - [qa] - [48o] - [qi] -
+[8w] - t - [8wi] - t - [8wi] - [tu] - [8wt] - [ti] -
+[60] - [eu] - [60] - [ey] - [60] - [et] - [60u] -
+[ey] - [59] - w - [59] - [ws] - [59f] - [wg] - [59f] -
+[wd] - [48d] - q s [48] - [qs] - [48] - [qd] - [48f] -
+q - [8w] - t - [8w] - t - [8wf] - [tg] - [8wf] - [td] -
+[60d] - e s [60] - [es] - [60] - [eh] - [60d] - e -
+[59] - w - [59] - w - [59uf] - [wig] - [59uf] - [wyd] -
+[48yd] - q [ts] [48] - [qts] - [48] - [qyd] - [48uf] -
+q - [8wt] --- [8wtuf] - [ig] - [8wtuf] - [yd] - [60eyd] -
+[ts] [60e] - [ts] - [60e] - [oh] - [60eyd] - [59wya] |
+[8wts] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
