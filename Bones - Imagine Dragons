@@ -1,0 +1,83 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 59 -- tempo overides the delay
+
+shared.scr = [[ ^----
+[ETS]|S|SSP|P|i|i-
+[qts]|s|s|p|p|i|i-
+[(Ws]|sss|O|O|Y|Y-
+[(w]----
+[ETS]|S|S|P|P|i|i-
+[qts]s|ss|p|p|i|i-
+[(Ws]|s|s|O|O|Y|Y-
+[(w]----i|
+[ETY]-i-i|Y-i-i|
+[qti]-i-i|Y-i-i|
+[(WY]-i-i|Y-i-i|
+[wp]-i-i|Y-i--
+[EP]|S|[iP]|S|[Tg]-D|S|
+[WD]|D|[iD]|D|[tg]-D|S|
+[wD]|D|[YD]|D|[tg]-D|D|
+[wD]|D|[YP]|P|[ES]--
+[EP]|S|[iP]|S|[Tg]-D|S|
+[WD]|D|[iD]|D|[tg]-D|S|
+[wD]|D|[YD]|D|[tg]-D|D|
+[wD]|D|[YP]|P|[ES]--
+[ETS]|S|SSP|P|i|i-
+[qts]|s|s|p|p|i|i-
+[(Ws]|sss|O|O|Y|Y-
+[(w]----
+[ETS]|SSS|P|P|i|i-
+[qts]s|ss|s|s|S|s-
+[(WD]|D|D|S|g|D|D-
+[w(D]|DDD|S|g|D-i|
+[ETY]-i-i|Y-i-i|
+[qti]-i-i|Y-i-i|
+[(WY]-i-i|Y-i-i|
+p-i-i|Y-i--
+[EP]|S|[iP]|S|[Tg]-D|S|
+[WD]|D|[iD]|D|[tg]-D|S|
+[wD]|D|[YD]|D|[tg]-D|D|
+[wD]|D|[YP]|P|[ES]-P|P|
+[EP]|S|[iP]|S|[Tg]-D|S|
+[WD]|D|[iD]|D|[tg]-D|S|
+[wD]|D|[YD]|D|[tg]-D|D|
+[wD]|D|[YP]|P|[ES]--
+E-i-T--
+W-i-t--
+w-Y-t-D|D|
+[wD]|D|[YP]|P|[ES]--
+[ES]|s|[is]|P|[TP]-PPPs
+W|P|[iP]|p|[tp]-PPPg
+w|D|[YS]|S|[ts]|s|s|s|
+[wS]|sPY-E-ii|S
+E|s|[is]|P|[TP]-PPPs
+W|P|[iP]|p|[tp]-PPPg
+w|D|[YS]|S|[ts]|s|s|s|
+[wS]|sPY-E--i|
+[EY]-i-i|Y-i-i|
+[ei]-i-i|Y-i-i|
+[WY]-i-i|Y-i-P|
+[wEYP]-[wEYP]-P|[wEYS]-[wEYP]--
+[EP]|S|[iP]|S|[Tg]-D|S|
+[WD]|D|[iD]|D|[tg]-D|S|
+[wD]|D|[YD]|D|[tg]-D|D|
+[wD]|D|[YP]|P|[ES]-P|P|
+[EP]|S|[iP]|S|[Tg]-D|S|
+[WD]|D|[iD]|D|[tg]-D|S|
+[wD]|D|[YD]|D|[tg]-D|D|
+[wD]|D|[YP]|P|[ES]|S|S|s|
+[Ei]-T-E-[TP]-
+[Wi]-t-W|s|[ts]|P|
+[Wi]|I|[ri]-W-r-
+w-[ES]-[wS]-[Es]-
+[Ei]-T-E-[TP]-
+[Wi]-t-W|s|[ts]|P|
+[Wi]|I|[ri]-W-[rD]|D|
+[wD]|D|P|P|S ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
