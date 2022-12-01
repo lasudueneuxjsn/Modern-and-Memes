@@ -1,0 +1,65 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ G-D-a-I-
+o-D-S--
+[r(QYI]-O-P-a S D f
+[0wrG]-k-L-Z-x-
+C----
+[7rYIP]--DI-D-
+[YI18tp]--SD-I-
+[!*TOua]--I DI-D-
+[uoa$QS]--I SD-I-
+[7rYIP]-O[(Qra]aO[(Qra]aO[(Qra]-
+[YI18tp]OO[(Qta]aO[(Qta]aO[(Qta]-
+[!*Ouaf]-[0ruaWOD]-[WO0rua]-[0ruWO]-
+[$Quoaf]-[uoa$QD]-[$Quoa]-O-I
+[aDGJ]-[aDGJ]-a[aDGJ]-[aDGJ]-
+[DGsj]-[DGsj]-s[DGsj]-[DGsj]-
+[fSH]-[fSH]-S[fSH]-[fSH]-
+[Sfh]-[Sfh]-S[Sfh]-Q[WSfh]-Q
+[aYDGJ]-T[aYDGJ]-Q[aDGJ]-[aWDGJ]-Q
+[YDGsj]-T[YDGsj]-Q[DGsj]-T[YDGsj]-T
+[fYSH]-T[fYSH]-T[fYSH]-T[fYSH]-T
+[YSfh]-T[YSfh]-Q[Sfh]-IO-a
+[7aDGJ]-[7aDGJ]-[7aDGJ]-I[7O]-[7s]
+[DG8sj]-[DG8sj]-[DG8sj]-I[8O]-[8D]
+*-f[*D]-S[*a]-*-[*D]
+Q-f[QD]-S[Qa]-I[QO]-a
+[7aD]-[7aD]-[7aD]-G[7aDH]-[7l]
+[8sD]-[8sD]-[8sD]-G[8sDH]-[8Z]
+[f*H]-x [f*HZ]-L [*Hfk]-G [f*H]-[*Z]
+[Qfh]-x [fhQZ]-L [fhQL]-Z[Qfh]-
+C----
+[7rYIP]--DI-D-
+[YI18tp]--SD-I-
+[!*TOua]--IDI-D-
+[uoa$QS]--ISD-I-
+[7rYIP]-7OaaO[7a]aO[7a]-7
+[YI18tp]O[18]OaaO[18a]aO[8a]-[!*]
+[!*Ouaf]-[0ruaWOD]-[WO0rua]-[u!*O][!*][@(]
+[30uoaf]-[30uoaD]-[$Quoa]-[u$QO]-
+[7rYIP]-7O[(Qra]aO[(Q7ra]aO[(Q7ra]-7
+[YI18tp]O8O[t(QS]SS[8t(QD]GD[8t(QS]a8
+[!*Ouaf]-[0ruaWOD]-[WO0rua]-[0ruWO]-
+[uoaf]-[uoaD]-[uoaS]-[uoaD]-
+[7kGC]-7 [r(QDZ]-7[(Q7rak]-7 [7r(QIG]-7
+[18paDH]-8 [t(QDZ]-8[8t(QSL]-8[(Qt]-8
+[!*Ouaf]-*[0ruaWOD]-* [*WO0rua]-*[0ruWO]-*
+[30uoaf]-[30uoaD]-[$Quoa]-[u$QO]-
+[7kGC]-7 [r(QDZ]-7[(Q7rak]-7 [7r(QIG]-7
+[18psDH]-8 [t(QDZ]-8[8t(QSL]-8 [(Qt]-8
+[!*Ouaf]-*[0ruaWOD]-* [*WO0rua]-*[0ruWO]-*
+[30uoaf]-[30uoaD]-[$Quoa]-O-I
+[aDGJ]-[aDGJ]-a [aDGJ]-[aDGJ]-
+[DGsj]-[DGsj]-s [DGsj]-[DGsj]-
+[fSH]-[fSH]-S [fSH]-[fSH]-
+[Sfh]-[Sfh]-S [Sfh]-[Sfh]-
+[DGak] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
