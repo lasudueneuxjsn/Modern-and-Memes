@@ -1,0 +1,117 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 85 -- tempo overides the delay
+
+    shared.scr = [[ [pG] [SH] [fk] [SL] [fk] [SH] [pG] [SH] [fk] [SL] [fk] [SH]
+[pG] [SH] [fk] [SL] [fk] [SH] [pG] [SH] [fk] [SL] [fk] [SH]
+[Of] [aH] [Dk] [aL] [Dk] [aH] [Of] [aH] [Dk] [aL] [Dk] [aH]
+[Of] [aH] [Dk] [aL] [Dk] [aH] [of] [aH] [Dk] [aL] [Dk] [aH]
+[If] [pG] [Sj] [pk] [Sj] [pG] [If] [pG] [Sj] [pk] [Sj] [pG]
+[If] [pG] [Sj] [pk] [Sj] [pG] [If] [pG] [Sj] [pk] [Sj] [pG]
+[uD] [Of] [aG] [OH] [aG] [Of] [uD] [Of] [aG] [OH] [aG] [Of]
+[uD] [Of] [aG] [OH] [aG] [Of] [uD] [Of] [aG] [OH] [aG] [Of]
+[6eO] [TO] [uO] [TO] [uO] [TI] [6eV] T u T u T
+[6eO] [TO] [uO] [TO] [uO] T [6eO] [TO] [uO] [TO] [uO] T
+[%WO] [rO] [YO] [rO] [YO] [rI] [%WV] r Y r Y r
+[%WO] [rO] [YO] [rO] [YO] r [5wO] [rO] [YO] [rO] [YO] r
+[$QO] [eO] [TO] [eO] [TO] [eI] [$QC] e T e T e
+[$QO] [eO] [TO] [eO] [TO] [eI] [$QC] e T e T e
+[30O] [WO] [rO] [WO] [rO] W [30OD] [WO] [rO] [WO] [rO] W
+[O30f] W [rO] W [rO] [WI] [30uG] W [rO] W [ra] W
+[6eu] p S T u T u T [6e] T [uS] T [upD] T
+[S6epf] T u T u T [6e] T [upS] T [Ouf] T
+[%WOD] r [YS] r [YOa] r [%WOa] r Y r [YO] r
+[a%WYOD] r [YS] r [YOa] r [5wYOD] r [YS] r [YOa] r
+[$QIa] [Iep] T e T e [$Q] e T e T e
+[$Q] e T e [uTS] e [$QTIua] e [TIp] e [TIO] e
+[t%WYO] [%W] [%W] [%WTOS] [%W] [%W]
+[(WOuf] % [(W] % [(W] % [tsYIOG]
+[6xHLV] H k L k H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] n [kx] n [kx] n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[3xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f G H [30G] f [rWYDZ] f G H G f
+[$fx] f G H G f [%GC] f G H G f
+[6xHLV] H k L k H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] 6 6 6 [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] 6 n [kx] [0t] n [kx] 6 n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[3xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f [3G] H [30G] f [rWYD] f G H G f
+[$d] f G [6$*QH] G f [%d] f G [%(QWH] G f
+[6e*O] [eTO] [uTO] [eTO] [uTO] [eTI] [6e*HV] [eT] [Tu] [eT] [Tu] [eT]
+[6e*O] [eTO] [uTO] [eTO] [uTO] [eT] [6e*O] [eTO] [uTO] [eTO] [uTO] [eT]
+[7%WO] [rWO] [rYO] [rWO] [rYO] [rWI] [7%WHV] [Wr] [rY] [Wr] [rY] [Wr]
+[7%WO] [rWO] [rYO] [rWO] [rYO] [Wr] [57wO] [wrO] [rYO] [wrO] [rYO] [wr]
+[6$QO] [eQO] [eTO] [eQO] [eTO] [eQI] [6$QGC] [Qe] [eT] [Qe] [eT] [Qe]
+[6$QO] [eQO] [eTO] [eQO] [eTO] [eQI] [6$QGC] [Qe] [eT] [Qe] [eT] [Qe]
+[30%O] [0WO] [rWO] [0WO] [rWO] [0W] [30%OD] [0WO] [rWO] [0WO] [rWO] [0W]
+[%O30f] [0W] [rWO] [0W] [rWO] [0WI] [30u%G] [0W] [rWO] [0W] [Wra] [0W]
+[6u] p S 0 e T e 0 6 0 [euS] T [epD] 0
+[S6pf] 0 e T e 0 6 0 [epf] T [eOG] 0
+[%OD] ( [WS] r [WOa] ( [%Oa] ( W r [WYO] (
+[a%YOD] ( [WS] r [WOa] ( [5YOD] ( [WS] r [WOa] (
+[$Ia] [*Ip] Q e Q * $ * Q e Q *
+$ * Q e [uQTS] * [$TIua] * [QTIp] e [QTIO] [ru*O]
+3 7 0 W 0 7 3 7 0 W 0 7
+3 7 0 W [0I] 7 [3u] 7 [0O] W [0a] 7
+[6u] p S 0 e T e 0 6 0 [euS] T [epD] 0
+[S6pf] 0 e T e 0 6 0 [epf] T [eOG] 0
+[%OD] ( [WS] r [WOa] ( [%Oa] ( W r [WYO] (
+[a%YOD] ( [WS] r [WOa] ( [5YOD] ( [WS] r [WOa] (
+[$Ia] [*Ip] Q e Q * $ * Q e Q *
+[$Ip] * Q e [uQTS] * [$TIua] * [QTIp] e [QTIO] *
+[t%YO] [(W] [(W] [%TOS] [(W] [(W]
+[(WOuf] % [(W] % [(W] % [tsYIOG]
+[6xHLV] H k L k H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] n [kx] n [kx] n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[3xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f G H [30G] f [rWYDZ] f G H G f
+[@$fx] f G H G f [2%GC] f G H G f
+[6xHLV] H k L [6ek] H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] 6 6 6 [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] 6 n [kx] [0t] n [kx] 6 n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[37xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f [3G] H [30G] f [rWYD] f G H G f
+[$fx] f G [6$*QH] G f [%GC] f G [%(QWH] G f
+[6H] L x V * 0 W T u [euTO]
+[6SL] [DZ]
+[0kn] Q e t [jb]
+[3HV]
+[0rWY]
+3 [DZ]
+[W0ryfx] [GC]
+[6H] L x V
+[euTO]
+[6SL] [DZ]
+[0kn] Q e t [jb]
+[3H] k x V
+[0rWY]
+3
+[W0ry]
+[euTH] V f x
+S L
+[rWYH] V D Z
+a k
+[wryG] C d z
+S L p j
+[euTG] C d z
+S L
+[0wrf] x a k
+f x h v
+[QETG] C P T I P
+G S J G L  ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
