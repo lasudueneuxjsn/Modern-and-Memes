@@ -1,0 +1,91 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ 99y e-W w q 9qw
+88y e-W w q 9qw
+77y e-W w q 9qw
+^^y e-W w q 9qw
+[29]9y e-W w q 9qw
+[18]8y e-W w q 9qw
+77y e-W w q 9qw
+^^y e-[1W] w q 9qw
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+[1t]t[8d] [1p] 8[1O] [1o]8[1i]1[1y][8i]o
+[7r]r[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[^E]E[^d] [^p] ^[1O] [1o]8[1i]1[1y][8i]o
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+[1t]t[8d] [1p] 8[1O] [1o]8[1i]1[1y][8i]o
+[7r]r[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[^E]E[^d] [^p] ^[1O] [1o]8[1i]1[1y][8i]o
+[2g] [9g]g2g9[2g] [2d]9[2d]229
+[1g] [8g]g1h8[1H] [1H]h[8g][1d][1g][1h]8
+[7g] [7g]g7h7[7H] [7j]7[7l]7[7j]7
+[^z] [^z] [^z]j[^z][1l] 181[1lv]18
+[2gj] [9gj][gj]2[gj]9[2gj] [2dh]9[2dh]229
+[1gj] [8gj][gj]1[gj]8[1dh] [1gj]8[1jz]1[1gj][8dh]
+[7kz]h[7dj]f[7gh]d[7ag][7d]l[7d][7ah][7d][7ag][7o][7af]o
+[^P] [^s]d^g^[1fl] 181118
+^ ^ ^ ^^g[^d][^g][^h][^H][^h][^g]d
+[1j]hgd[8g] [1h] 81 1811[1H]8j
+[2l] [9j]H[2h]g[9d][2g]h2[9H]2[2j]2[9l]
+[!L] [*H] [!H]h[*g][@h] @(@@@(
+[^yi] [^uo] [^ip] [^dg]^[sf]^^^[^pd]^^
+[1of] 8 [1pg] 81[sh]181[1pf]18
+[2dj] 9 2 92j[2H][9h][2G][2g][2f][9D]d
+[!OS] * ! *@[PD]@(@@@(
+^ ^ ^ ^^g[^d][^g][^h][^H][^h][^g]d
+[1j]hgd[8g] [1h] 81 1811[1H]8j
+[2l] [9j]H[2h]g[9d][2g]h2[9H]2[2j]2[9l]
+[!L] [*H] [!H]h[*g][@h] @(@@@(
+[^yi] [^uo] [^ip] [^dg]^[sf]^^^[^pd]^^
+[1of] 8 [1pg] 81[sh]181[1pf]18
+[2dj] 9 2 92j[2H][9h][2G][2g][2f][9D]d
+[!OS] * ! *@[PD]@(@@@(
+[^E] ^ ^ ^^ ^^^[^i]^^
+[1u] 1 8 11y181118
+[7i] 7 7 77 777777
+7 7 7 77 777777
+[^E] ^ ^ ^^ ^^^[^i]^^
+[1u] 1 8 11y181118
+[2y] 2 9 22 292229
+2 2 9 22 292229
+[^E]E[^d] [^p] ^[^O] [^o]^[^i]^[^y][^i]o
+[1t]t[1d] [8p] 1[1O] [1o]8[1i]1[1y][8i]o
+[7y]y[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[7y]y[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[^E]E[^d] [^p] ^[^O] [^o]^[^i]^[^y][^i]o
+[1t]t[1d] [8p] 1[1O] [1o]8[1i]1[1y][8i]o
+[269]9[26yi] [26eu]-[W26t] [26wu] [26qy] [269w][26qe][26wt]
+[269]9[26yi] [26eu]-[W26t] [26wu] [26qy] [269w][26qe][26wt]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2ey] [9ey] [2ey] 9[!WT] [!WT]*[!WT]!![*WT]
+[1wt] [8wt] [1wt] 8[Q7r] [Q7r]7[Q7r]77[Q7r]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2ey] [9ey] [2ey] 9[2ey] [2ey]9[2ey]22[9ey]
+[2ey] [9ey] [2ey] 9[2ey] [2ey]9[2ey]22[9ey]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2ey] [9ey] [2ey] 9[!WT] [!WT]*[!WT]!![*WT]
+[1wt] [8wt] [1wt] 8[Q7r] [Q7r]7[Q7r]77[Q7r]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+^^y e-W w q 9qw
+88y e-W w q 9qw
+99y e-W w q 9qw
+99y e-W w q 9qw
+^^y e-W w q 9qw
+88y e-W w q 9qw
+[29]9[2yi] [2eu]-[W2t] [2wu] [2qy] [29w][2qe][2wt]
+[29]9[2yi] [2eu]-[W2t] [2wu] [2qy] [29w][2qe][2wt]
+[269yd]--[29dgjz] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
