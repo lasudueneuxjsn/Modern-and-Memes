@@ -1,0 +1,64 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 35 -- tempo overides the delay
+
+shared.scr = [[ jkjh
+[tod]fh [to]f k[tto--[ypj]kjh
+[uad]fh [ua]fk [ypj]--[ypj]kjh
+[tod]fh [to]f h[toz]k--[yph]j k
+[ua]-[ua]-[ua]-[ypj]kjh
+[tod]fh [to]f k[to]-[ypj]kjh
+[uad]fh [ua]fk [ypj]-[ypj]kjh
+[tod]fh [to]f h[toz]k-[yph]j k
+[ua]-[ua]-[ua] aapapo
+[8wo]-u[8wo]uo [59y]-y[59p]apo
+[9ep] po[9ea] pp[0r]o-[0rp]apo
+[8wp]ouu[8wu]yo [59]-[59]-
+[9eyI]-[yI] e [yI] aaa po
+[8wo] ou[8wo]uo [59]-[59p]apo
+[9ep] po[9ea] pp[0r]o-[0rp]apo
+[8wp]ouu[8wu]yo [59]-[59]-
+[9eyI]-[yI] e [yI] poap p
+[0r]ou [0r] w [8tu] w [tu] w 
+[9yI] e [yI] e [7ry] Q [ry] Q 
+[0uo] r [uo] r [8tu] w [tu] w 
+[9yI] e [yI] e [yI] e [yI]-
+[0a] [ra] [ua]poo8 wstaw 
+[9p] ep[yp]oI [7I] Qy[ra] [Qp] 
+[0o] ru[ua] po[8u] w t w 
+[9yI] e [yI] e [yI] e [yI]-a
+[0a] [ra] [ua]poo8 wstaw 
+[9p] ep[yp]oI [7I] Qy[ra] [Qa] 
+[0a] rou po8 w t w 
+[9eyI]-[yI] e [yI] aaa po
+[8wo] ou[8wo]uo [59]-[59p]apo
+[9ep] po[9ea] pp[0r]o-[0rp]apo
+[8wp]ouu[8wu]yo [59]-[59]-
+[9eyI]-[yI] e [yI] aaa po
+[8wo] ou[8wo]uo [59]-[59p]apo
+[9ep] po[9ea] pp[0r]o-[0rp]apo
+[8wp]ouu[8wu]yo [59]-[59]-
+[9eyI]-[yI] e [yI] e o p 
+[0a] r u [rp]a[8s] w [ta] w 
+[9p] e [yI] e [yI] e o p 
+[0a] r u [rp]a[8s] w [ta] w 
+[9p] e [yI] e [yI] e d s 
+[0a] r u [rp]a[8s] w [tu] w 
+[9I] e [yI] e [yI] e [yI]-
+[0o] r u r 8 w t [wp] 
+[9eyI]-[yI] e [yI]-k jh
+[toh] hf[toh]fh [wy]-[wyj]kjh
+[ypj] jh[ypk] jj[ua]h-[uaj]kjh
+[toj]hff[tof]dh [wy]-[wy]-
+[ypdG]-[dG] p [dG]-k jh
+[toh] hfhfh [wy]-jkjh
+[ypj] jhk jj[ua]h-jkjh
+[toj]hfffdh [wy]--
+[ypdG]-[dG] p [dG] yyap p
+3o[7u] 0 ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
