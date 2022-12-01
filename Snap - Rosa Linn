@@ -1,0 +1,137 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 52 -- delay overides the delay
+
+    shared.scr = [[ 6 0 e t 6 0 e t
+6 0 e t 5 9 w r
+8 w t u 8 w t u
+8 w t u [5s] 9srf9
+[6f] 0 e t 6 0 e t
+6 0 t [0s] [4g] 8gef8
+[8f] w u [ws] 8 w t u
+8 w t u [5s] 9drs9
+[6f] 0 t [0f] [6f] 0 t [0d]
+[6d] 0 t [0d] [4d] [8s] [es] 8
+8 w t u 8 w t u
+8 w u [ws] [5s] 9srd9
+[6f] 0 e t 6 0 e t
+6 [0s] t [0s] [4g] [8g] e [8f]
+[8f] w u [ws] 8 w t u
+8 w u [ws] [5s] 9drs9
+[6j] 0hth0 [6f] 0fef0
+[6d] 0dtd0 [4s] 8 [es] [8s]
+8 w t u 8 w t u
+8 w t u 5 9 w r
+[qtipd]--[qt]--
+[qt]--[qts] f--
+[wyf] d s d [wy]--
+[wy]----s d
+[6f]-[0e]-[3f]-[0e]-
+4-[et]-[8f] g [et]-
+[1f]-[wt]-5-[wt]-
+8-[wt] s [8j]-h7h-
+[6f] d [0es] d [3f] g [0ef]-
+4 d [ets] d [8f] g [etf]-
+1-[wt]-5-[wt]-
+8-[wt]-7-[rs] d
+[6f]-[0e]-[3f]-[0e] s
+[4g]-g[et]g-[8g] f [etf]-
+1-[wt]-5-[wt]-
+8-[wt] s [8j]-h7h-
+[6h] g [0ef] g [3h] j [0eh]-
+4 g [etf] g [8h] j [eth]-
+1-[wt]-8-[wt]-
+1-[wt] s [8s] s [wt]-
+5-o----
+s s-s-d-
+[6sf] 0 e t 6 0 e t
+6 0 t [0s] [4sg] 8[sg]e[sf]8
+[8sf] w u [ws] 8 w t u
+8 w t u [5s] 9srf9
+[6sf] 0 t 0 [6sf] 0 t [0d]
+[6d] 0 t [0d] [4d] [8s] [es] 8
+8 w t u 8 w t u
+8 w u [ws] [5s] 9srd9
+[6sf] 0 t [0s] 6 0 e t
+6 0 t [0s] [4sg] 8[sg]e[sf]8
+[8sf] w u [ws] 8 w t u
+8 w t u 5 9srs9
+[6sj] 0[sh]t[sh]0 [6sf] 0[sf]e[sf]0
+[6ad] 0[ad]t[ad]0 [4g] [8f] [es] 8
+8 w t u 8 w t u----
+s s s d
+[6sf]-[0e]-[3sf]-[0e]-
+4-[et]-[8sf] [sg] [et]-
+[1sf]-[wt]-5-[wt]-
+8-[wt] s [8sj]-[sh]7[sh]-
+[6sf] [ad] [0eps] [ad] [3sf] [dg] [0esf]-
+4 [ad] [etps] [ad] [8sf] [dg] [etsf]-
+1-[wt]-5-[wt]-
+8-[wt]-7-[rps] [ad]
+[6sf]-[0e]-[3sf]-[0e] s
+[4sg]-[sg][et][sg]-[8sg] [sf] [etsf]-
+1-[wt]-5-[wt]-
+8-[wt] s [8sj]-[sh]7[sh]-
+[6fh] [dg] [0esf] [dg] [3fh] [gj] [0efh]-
+4 [dg] [etsf] [dg] [8fh] [gj] [etfh]-
+1-[wt]-8-[wt]-
+1-[wt] s [8s] s [wt]-
+[6sl]-[0e]-[3ak]-[0e]-
+[4pj]-[et]-[8oh]-[et]-
+[1uf]-[wt]-5-[wt]-
+8-[wtoh]-[8pj]-[7ak]-
+[6sl] f [0ej] l [3ak] f [0eh] k
+[4pj] s [etg] j [8oh] s [etf] h
+[1uf]-[wt]-5-[wt]-
+8-9-0-w s
+[is]-j-j-[pj]-j-j-
+[fj]-j-k-[sl]-k-h-
+o--d--
+h----s
+[id]-f-f-[pf]-f-f-
+[df]-d-d-[sd]-s-
+[os]--f--
+a----s-
+d-f-f-f-f-f-
+d-d-d-d s s--
+o----
+[sl] [dz]
+[fx]--[fx]----
+[fx] [gc]--
+[1fx]-[wt]-5-[wt]-
+8-[wt] [sl] [18jb]-[hv]7[hv]-
+[6fx] [dz] [0esl] [dz] [3fx] [gc] [0efx]-
+4 [dz] [etsl] [dz] [8fx] [gc] [etfx]-
+1-[wt]-5-[wt]-
+8-[wt]-7-[rsl] [dz]
+[6fx?]-[0e]-[3fx]-[0e] [sl]
+[4gc]-[gc][et][gc]-[8gc] [fx] [etfx]-
+1-[wt]-5-[wt]-
+8-[wt] [sl] [18jb]-[hv]7[hv]-
+[6hv] [gc] [0efx] [gc] [3hv] [jb] [0ehv]-
+4 [gc] [etfx] [gc] [8hv] [jb] [ethv]-
+1-[wt]-8-[wt]-
+1-[wt] s [8s] s [wt]-
+[6lm?]-[0ekn]-[3kn]-[0ejb]-
+[4jb]-[ethv]-8-[etgc]-
+[1fx]-[wt]-5-[wt]-
+8-[wt] s [18s] s 7-
+[6lm]-[0ekn]-[3kn]-[0ejb]-
+[4jb]-[ethv]-8-[etgc]-
+[1fx] [dz] [wtsl]-5-[wt]-
+8-[wt] [hv] [8hv]-[jb]7[kn]-
+[6lm] x [0eb] m [3kn] x [0ev] n
+[4jb] l [etc] b [8hv] l [etx] v
+[1dz] h [wtk] z [5fx] h [wtl] x
+8-[wthv]-[8jb]-[7kn]-
+[6lm] x [0eb] m [3kn] x [0ev] n
+[4jb] l [etc] b [8hv] l [etx] v
+[1dz]-[wt]-[8fx]-[wt]-
+1-[wt] s [8s] s [wt]--
+o ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
