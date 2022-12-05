@@ -1,0 +1,76 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.tempo = 62 -- tempo overides the delay to finish (extended by |)
+
+    shared.scr = [[ [^g] [WT] * [WTD] 8 [et] ( [etD] 
+[^D] [WT] * [WTS] [8D] [et] ( [etS] 
+[^S] [WT] * [WTsl] [8PJ] [et] ( [etsl] 
+[^SL] [WT] * [WTDZ] [8sl] [et] [(pj] [et] 
+[q^*E]ii iii Y----
+TY i TY TE--T
+[^*Eqi] I i TY[(68e]Yi I iY
+[q^*E] T----TO
+[q^*E] i YT O[8%(W] i YT P
+[q^*E] O [9q^EI]i I[^(QE]iT-Ti
+[q^*E] I iT Y[(68e]Yi I iY
+[q^*E] T--^^^^^^^
+^iii[*Eqi]i Y[!*] W [qET] WT
+^TY [*Eqi] TY[!*]TE [qET] TY
+^iI [*Eqi] TY4iI [8qei] YY
+^T-[q*E]-4-[q*E] TO
+^ i [q*EY]T O% i [8(WY]T P
+2 O [9qEI]i I@iT [^*q] Ti
+4 I [(8qei]T Y6Yi [8qe(I] iY 
+T--[^E][^E][^E][^E][^E][^EPJ][^E]
+[^SL?] [q^*E] [^DZ?] [^*Eqsl] 4 [8qet] 4 [8qetPJ] 
+[!SL] [q*WTPJ] [!ak][PJ][q*WT][dz]2 [9qyWPJ] [2ak][PJ][W9qy][OH]
+@ [^(QEIG] @[IG][^(QEIG][ig]4 [8qetIG] [4ig] [8qetYD][YD]
+[^?] [q^*ETS] [^?] [q^*E] 4 [8qet] 4 [8qetPJ] 
+[^SL?] [q^*E] [^DZ?] [^*Eqsl] 4 [8qet] 4[PJ][8qetsl][SL]
+![SL][q*WTPJ] [!ak][PJ][q*WT][dz]2 [9qyWPJ] [2ak][PJ][W9qy][OH]
+@ [^(QEIG] @[IG][^(QEIG][ig]4 [8qetIG] [4ig] [8qetYD][YD]
+[^?] [q^*ETS] [^?] [q^*E] 4 [8qet] 4 [8qet] 
+[^P?]S[*Eqg]P[^S]g[q*EP]p[%O]s[8(WG]O[%s]G[8(WD]s
+[!S]g[q*WTH]S[!g]H[q*WTD]S[4s]D[8et(H]S[4J] [8et(H]S
+[^P?]S[*Eqg]P[^S]g[q*EP]p[%O]s[8(WG]O[%s]G[8(WD]s
+[!S]g[q*WTH]S[!g]H[q*WTD]S[4s]D[8et(H]s[4D]H[8et(D]S
+[^P?]S[*Eqg]P[^S]g[q*EP]p[%O]s[8(WG]O[%s]G[8(WD]s
+[!S]g[q*WTH]S[!g]H[q*WTD]S[4s]D[8et(H]l[4L]l[8et(H]D
+[^P?]S[*Eqg]P[^S]g[q*EP]p[%O]s[8(WG]O[%s]G[8(WD]s
+[!S]g[q*WTH]S[!g]H[q*WTD]S[48s]-[qi]-
+[q^*E]iiiiiiY-W-WT 
+TY i TY TE-EY
+[q^*E]iI iT Y[68qe]iI i YY
+[q^*E] T----T 
+[q^*EO] i YT O[8%(W] i YT P
+[E9qy]PO [9qyWI]IiI[(QEY]iT-TY
+[q^*E]iI iT Y[68qe] I i YY
+[q^*E] T--[^E][^E][^E][^E][^E][^E][^E]
+^iii[*Eqi]i Y[!*] W [qET] WT
+^TY [*Eqi] TY[!*]TE [qET] TY
+^iI [*Eqi] TY4iI [8qei] YY
+^T-[q*E]-4-[q*E] TO
+^ i [q*EY]T O% i [8(WY]T P
+2 O [9qEI]i I@iT [^*q] Ti
+4 I [(8qei]T Y6Yi [8qe(I] iY 
+T--[^E][^E][^E][^E][^E][^EPJ][^E]
+[^SL?] [q^*E] [^DZ?] [^*Eqsl] 4 [8qet] 4 [8qetPJ] 
+[!SL] [q*WTPJ] [!ak][PJ][q*WT][dz]2 [9qyWPJ] [2ak][PJ][W9qy][OH]
+@ [^(QEIG] @[IG][^(QEIG][ig]4 [8qetIG] [4ig] [8qetYD][YD]
+[^?] [q^*ETS] [^?] [q^*E] 4 [8qet] 4 [8qetPJ] 
+[^SL?] [q^*E] [^DZ?] [^*Eqsl] 4 [8qet] 4[PJ][8qetsl][SL]
+![SL][q*WTPJ] [!ak][PJ][q*WT][dz]2 [9qyWPJ] [2ak][PJ][W9qy][OH]
+@ [^(QEIG] @[IG][^(QEIG][ig]4 [8qetIG] [4ig] [8qetYD][YD]
+^ [q*ETS] ^ [q*E]----
+[q^*E] T i E T i--
+[Q7r] T i [Q7r] T O [*W]-[^E][%W]
+[$*QI] P S I [6ep] D--
+[%qi] O S i [6qY] T 
+[q^*E] T i E [Tsl] i [PJ]-
+[$Q7r] T i r [Tsl] O [OH]-
+[$*QI] P S I [Q6psl] D [OH]-
+[!*OH][PJ]O S i Y T t T ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
