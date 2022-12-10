@@ -2,7 +2,7 @@
 
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-    shared.ftime = 165
+    shared.ftime = 150
 
     shared.scr = [[ 180w0wtwtutuouososfsfhfh
 l-l-[sl]-[sl]-
