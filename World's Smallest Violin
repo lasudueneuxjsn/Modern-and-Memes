@@ -2,7 +2,7 @@
 
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-    shared.delay = 0.080
+    shared.delay = 0.073
 
     shared.scr = [[ 180w0wtwtutuouososfsfhfh
 l-l-[sl]-[sl]-
