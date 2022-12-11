@@ -4,7 +4,7 @@
 -- CONFIG:
     shared.ftime = nil -- time in seconds for the song to finish (extended by |)
     shared.delay = nil -- delay overides the ftime
-    shared.tempo = 85 -- tempo overides the delay
+    shared.tempo = 120 -- tempo overides the delay
 
     shared.scr = [[ [pG] [SH] [fk] [SL] [fk] [SH] [pG] [SH] [fk] [SL] [fk] [SH]
 [pG] [SH] [fk] [SL] [fk] [SH] [pG] [SH] [fk] [SL] [fk] [SH]
