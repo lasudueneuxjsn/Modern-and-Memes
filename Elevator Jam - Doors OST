@@ -1,0 +1,22 @@
+shared.tempo = 120
+shared.scr = [[ [(D]-[QEGJ]-[(D] [QEGJ]-[(D]-
+[QEGJ]-[(D] [(D]-[QEGJ]-
+[*S]-[qgWH]-[*S] [qgWH]-[*S]-
+[qgWH]-[*S] [*S]-[qgWH]-
+[7a]-[(QDG]-[7a] [(QDG]-[7a]-
+[(QDG]-[7a] [7a]-[(QDG]-
+[^P]-[9dWH]-[^P] [9dWH]-[^P]-
+[9qdg]-[^P] [^P] D [9qG] H 
+[(J]-[QE]-( [QE]-(-
+[QEH]-[(G]g[(H]-[QEG]-
+[*g]Dg [qW]-* [qW]-*-
+[qWG]-[*g]D[*G]-[Wqg]-
+[7D]Sa [(Q]-7 [(Q]-7-
+[(Q]-7 7 a [(QS] D 
+[^g]-[9W]-[^H] [9W]-[^G]-
+[9q]-^ [^d]-[9q]-
+[(D]-[QE]-( [Qt]-E-
+[QT]-( q ^ q-
+Q ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
